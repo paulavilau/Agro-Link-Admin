@@ -1,0 +1,116 @@
+.home .card {
+  padding: 20px;
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  background-color: #f8f4f7;
+  margin-left: 30px;
+}
+
+.login-background {
+  background-image: url("../../assets/home_bg.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.main-background {
+  background-image: url("../../assets/home_bg.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.login-form {
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 100px;
+  width: 300px;
+  position: relative;
+  top: 100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 100px;
+}
+
+.main-section {
+  background-color: #e6ffe6;
+  position: relative;
+  padding: 100px;
+  max-height: 500px;
+  width: 100%;
+
+  /* // margin: auto; */
+  display: flex;
+  flex-direction: column;
+}
+
+.my-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-basis: 50%;
+  padding: 100px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  /* Each item takes 50% of the container width */
+}
+
+.light-green {
+  background-color: #e6ffe6;
+}
+
+.dark-green {
+  background-color: #ccffcc;
+}
+
+.margin-right {
+  margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+  .item {
+    flex-basis: 100%; /* Change to 100% to make items stack in a single column */
+  }
+}
+
+.centered {
+  align-items: center;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.input {
+  margin-top: 20px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.validated {
+  background-color: rgb(198, 243, 198);
+}
+
+.not-validated {
+  background-color: rgb(243, 187, 187);
+}
+
+.button {
+  background-color: rgb(243, 224, 249);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
