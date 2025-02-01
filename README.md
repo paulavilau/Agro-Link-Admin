@@ -1,4 +1,4 @@
-# 🌿 AgroLink - Mobile E-Commerce Platform for Local Farmers (Administration web app)
+# 🌿 AgroLink - E-Commerce Platform for Local Farmers (Administration web app)
 
 This web application developed with the **React** framework is dedicated to the administration team of the AgroLink platform (digital marketplace that connects farmers with buyers, allowing them to sell and purchase fresh agricultural products). The app integrates with a **Java Spring Boot** backend, which manages the business logic and data storage using **MySQL**.
 
